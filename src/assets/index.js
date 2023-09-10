@@ -32,9 +32,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import sentimentAnalyzer from "./sentimentAnalyzer.png"
-import portfolioWeb from "./portfolioWeb.png"
-import musicApp from "./musicApp.png"
-import webAr from "./webAr.png"
+import portfolioWeb from "./portfolioWeb.png";
+import musicApp from "./musicApp.png";
+import webAr from "./webAr.png";
 
 export {
   logo,
