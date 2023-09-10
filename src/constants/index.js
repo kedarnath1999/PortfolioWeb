@@ -279,7 +279,7 @@ import {
     {
       name: "AR visiting card",
       description:
-        "A web application where users can scan a QR code and their details will be displayed in 3D space",
+        "A web application to create Augmented Reality ID card, where users can scan a QR and will be able to view information about another person in AR space.",
       tags: [
         {
           name: "reactjs",
