@@ -28,7 +28,8 @@ import {
     sentimentAnalyzer,
     portfolioWeb,
     musicApp,
-    webAr
+    webAr,
+    ecom
   } from "../assets";
 
 
@@ -307,6 +308,31 @@ import {
       ],
       image: webAr,
       source_code_link: "#",
+    },
+    {
+      name: "Ecommerce web app",
+      description:
+        "A web application where users can add or delete items from the cart and complete online purchases.",
+      tags: [
+        {
+          name: "Django",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "html",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: ecom,
+      source_code_link: "https://github.com/kedarnath1999/Ecom-Django-web-app",
     },
   ];
   
