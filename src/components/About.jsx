@@ -44,7 +44,8 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}   
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'   
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quo aspernatur minus ab eveniet ducimus ullam sapiente doloribus, quidem qui facilis illum rem dolores voluptate voluptatum fugit quis quaerat atque.
+        I am a current Master's in Computer Science student at Florida State University, actively seeking Software Development Engineer (SDE) internships for the summer of 2024. With a solid foundation in Computer Science and a passion for web development, I bring hands-on experience in React JS to the table. I am eager to contribute my skills and knowledge to innovative projects while further enhancing my expertise in software development.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

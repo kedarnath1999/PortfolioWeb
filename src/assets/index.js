@@ -33,6 +33,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import sentimentAnalyzer from "./sentimentAnalyzer.png"
 import portfolioWeb from "./portfolioWeb.png"
+import musicApp from "./musicApp.png"
+import webAr from "./webAr.png"
 
 export {
   logo,
@@ -66,5 +68,7 @@ export {
   nec,
   cognizant,
   sentimentAnalyzer,
-  portfolioWeb
+  portfolioWeb,
+  musicApp,
+  webAr
 };

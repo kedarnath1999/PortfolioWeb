@@ -26,7 +26,9 @@ import {
     nec,
     cognizant,
     sentimentAnalyzer,
-    portfolioWeb
+    portfolioWeb,
+    musicApp,
+    webAr
   } from "../assets";
 
 
@@ -244,27 +246,68 @@ import {
       image: portfolioWeb,
       source_code_link: "https://github.com/kedarnath1999/PortfolioWeb",
     },
-    // {
-    //   name: "Portfolio web app",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: portfolioWeb,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Music player app",
+      description:
+        "A web application where users can listen to music",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Exress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "green-text-gradient",
+        }
+      ],
+      image: musicApp,
+      source_code_link: "https://github.com/kedarnath1999/music-app2",
+    },
+    {
+      name: "AR visiting card",
+      description:
+        "A web application where users can scan a QR code and their details will be displayed in 3D space",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "azure",
+          color: "green-text-gradient",
+        },
+        {
+          name: "AR.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "webAr",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: webAr,
+      source_code_link: "#",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
