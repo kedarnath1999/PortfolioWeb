@@ -29,7 +29,8 @@ import {
     portfolioWeb,
     musicApp,
     webAr,
-    ecom
+    ecom,
+    FsuSeal,
   } from "../assets";
 
 
@@ -126,14 +127,15 @@ import {
   
   const experiences = [
     {
-      title: "SDET (intern)",
-      company_name: "Cognizant",
-      icon: cognizant,
+      title: "Teaching Assistant",
+      company_name: "Florida State University",
+      icon: FsuSeal,
       iconBg: "#FFFFFF",
-      date: "Mar 2021 - Aug 2021",
+      date: "Jan 2024 - Present",
       points: [
-        "Worked as SDET (Software Engineerin Test) and performed automation testing using Selenium Web Driver",
-        "Technologies used: java, Selenium, Jenkins, Eclipse"
+        "Assist in the preparation of course material and resources for “Microcomputer Application for Business/Economics” and “Computer Fluency”",
+        "Provide one-to-one assistance to students during office hours, addressing questions and concerns related to the course content.",
+        "Grade assignments, exams, and provided constructive feedback to support student learning and development.",
       ],
     },
     {
@@ -143,12 +145,25 @@ import {
       iconBg: "#FFFFFF",
       date: "Aug 2021 - July 2023",
       points: [
-        "I developed Front-End Web for a Blockchain project, a Blockchain-based traceability interface for Indian spices that aimed at enhancing transparency in the trade of spices. ",
-        "I worked on a mobile app development which was a Blockchain-based project where institutions could generate authentic certificates for their stakeholders",
-        "●	I have worked on creating an educational tech platform where students can learn coding by taking coding tests and assessments about a specific subject.",
-        "Technologies used: React JS, React-Native, MUI (Material-UI), CSS (Cascading Style Sheets), AWS Cognito, JavaScript, DynamoDB",
+        "Developed UI for a Blockchain-based traceability project for Indian spices which aimed at enhancing transparency in the trade of spices.",
+        "Worked on a mobile app development which was a Blockchain-based project where institutions could generate authentic certificates for their stakeholders, based on blockchain technology",
+        "Developed UI for an EdTech platform that enables students to code and take programming assessments.",
+        "Created an Augmented Reality ID card that enables users to scan the QR code on the card. This scan provides access to information about the card owner within the AR environment, which includes an introductory video and links to their social media profiles.",
+        "Technologies used: React JS, React-Native, MUI (Material-UI), CSS (Cascading Style Sheets), AWS Cognito, JavaScript, DynamoDB, AR.js, Express, MongoDB"
       ],
     },
+    {
+      title: "SDET (intern)",
+      company_name: "Cognizant",
+      icon: cognizant,
+      iconBg: "#FFFFFF",
+      date: "Mar 2021 - Aug 2021",
+      points: [
+        "Performed automation testing using Selenium Web Driver and java programming language.",
+        "Discovered 32 critical bugs.",
+        "Technologies used: Java, Selenium, Jenkins, Eclipse"
+      ],
+    }
     // {
     //   title: "Web Developer",
     //   company_name: "Shopify",
